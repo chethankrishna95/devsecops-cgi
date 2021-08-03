@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Python Version
+      - name: Python test Version
         run: python -V
       - name: Identifying the Folder
         run: pwd
